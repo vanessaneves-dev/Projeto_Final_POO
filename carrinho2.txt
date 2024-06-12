@@ -1,0 +1,5 @@
+Item  Qtd   Nome            Preço      SubTotal  
+1     2     Blusa           20,00      40,00     
+2     10    Macarrão        5,49       54,90     
+
+Total:                              94,90     
