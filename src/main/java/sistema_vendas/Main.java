@@ -14,17 +14,13 @@ public class Main {
         carrinho1.adicionarItem(roupa);
         carrinho1.adicionarItem(alimento);
 
-
         System.out.println("Carrinho 1:");
         carrinho1.listarItens();
         System.out.println("Total: " + carrinho1.calcularTotal());
 
-
         carrinho1.gerarArquivoTexto("carrinho1.txt");
 
-
         CarrinhoDeCompras carrinho2 = new CarrinhoDeCompras();
-
 
         Roupa blusa = new Roupa("Blusa", 20.0, "G", "Azul", 2);
         Alimento macarrao = new Alimento("Macarrão", 5.49, "01/2025", 10);
